@@ -40,6 +40,5 @@ makeicon() {
     # Добавляем комментарий к файлу
     osascript -e 'set theFile to POSIX file "'"${PWD}/${filename}.icns"'" as alias' -e 'tell application "Finder" to set comment of theFile to "2023©Made by VladGohn with AI"'
 }
-
-
 ```
+Теперь вы можете использовать команду makeicon в терминале с путем к файлу .png в качестве аргумента.
