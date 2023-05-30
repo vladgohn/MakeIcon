@@ -50,10 +50,13 @@ makeicon() {
     osascript -e 'set theFile to POSIX file "'"${PWD}/${filename}.icns"'" as alias' -e 'tell application "Finder" to set comment of theFile to "2023©Made by VladGohn with AI"'
 }
 ```
-Теперь вы можете использовать команду makeicon в терминале с путем к файлу .png в качестве аргумента.
+Теперь вы можете использовать команду `makeicon` в терминале с путем к файлу `.png` в качестве аргумента.
 ```bash
 makeicon /path/to/filename.png
 ```
+
+
+
 
 Создание проекта: **Vlad Gohn**. Поддержка: GPT-4 от OpenAI. <img width="16" height="16" src="./resouces/GPT4.svg">
 
