@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="./resouces/MakeIconApp.png" width="128" alt="Иконка Visual Studio Code">
+</p>
+
 # Bash MakeIcon
 Bash MakeIcon - это простой bash-скрипт для преобразования изображения PNG в иконку ICNS на Mac. Этот скрипт также добавляет кастомный комментарий в метаданные иконки.
 
