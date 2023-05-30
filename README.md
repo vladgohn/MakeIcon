@@ -51,3 +51,11 @@ makeicon() {
 }
 ```
 Теперь вы можете использовать команду makeicon в терминале с путем к файлу .png в качестве аргумента.
+```bash
+makeicon /path/to/filename.png
+```
+
+Создание проекта: **Vlad Gohn**. Поддержка: GPT-4 от OpenAI. <img width="16" height="16" src="./resouces/GPT4.svg">
+
+## Лицензия
+Этот проект доступен по лицензии [MIT License](./LICENSE).
